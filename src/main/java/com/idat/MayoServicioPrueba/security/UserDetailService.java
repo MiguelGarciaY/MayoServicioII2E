@@ -17,7 +17,7 @@ public class UserDetailService implements UserDetailsService{
 		if("profesor".equals(username)) {
 		return new User("profesor","123",new ArrayList<>());
 		}else
-			throw new UsernameNotFoundException("Usuario no exist"+username);
+			throw new UsernameNotFoundException("Usuario no existe "+username);
 	}
 	
 }

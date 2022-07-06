@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.idat.MayoServicioPrueba.dto.ProductoDTORequest;
 import com.idat.MayoServicioPrueba.dto.ProductoDTOResponse;
-import com.idat.MayoServicioPrueba.model.Productos;
 import com.idat.MayoServicioPrueba.service.ProductoService;
 
 @Controller
